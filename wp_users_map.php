@@ -10,6 +10,8 @@
  **/
 add_shortcode('users_map', 'users_map');
 
+// TODO: require leaflet-map plugin (https://pl.wordpress.org/plugins/leaflet-map/)
+
 function users_map()
 {
     $users = get_users();
